@@ -33,8 +33,18 @@
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 0px;
   box-sizing: border-box; }
+
+.para {
+  position: relative;
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 0px;
+  box-sizing: border-box;
+}
+
 .column,
 .columns {
   width: 100%;
@@ -385,6 +395,7 @@ hr {
 
 /* Self Clearing Goodness */
 .container:after,
+.para:after,
 .row:after,
 .u-cf {
   content: "";
